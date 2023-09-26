@@ -1,0 +1,586 @@
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Styles untuk layar kecil seperti pada hp */
+@media only screen and (max-width: 767px) {
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input { 
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 3px;
+  bottom: 3px;
+  background-color: #fff;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(16px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+section p {
+    font-size: 18px;
+  }
+  
+.penutup p {
+  font-size: 18px;
+}
+
+section h2 {
+  font-size: 40px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #bec3f7;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: reveal 3s ease-in-out infinite;
+}
+
+@keyframes reveal {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.group {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Ganti warna atau gaya sesuai keinginan Anda */
+h4, h5 {
+  color: #333;
+}
+
+/* Ganti warna atau gaya sesuai keinginan Anda */
+.group h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Ganti warna atau gaya sesuai keinginan Anda */
+.group h5 {
+  margin: 0;
+}
+
+
+.left h4 {
+  font-size: 35px;
+}
+
+
+.right h4 {
+  font-size: 35px;
+}
+
+
+footer a {
+  color: #333;
+  text-decoration: none;
+  font-size: 15px;
+  border-bottom: 2px solid blue;
+}
+  
+}
+
+/* Styles untuk layar menengah seperti pada tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  
+}
+
+/* Styles untuk layar besar seperti pada pc */
+@media only screen and (min-width: 1024px) {
+
+section h1 {
+  font-size: 70px;
+}
+
+section h2 {
+  margin-bottom: 18px;
+  font-size: 50px;
+   text-align: center;
+  justify-content: center;
+}
+
+section p {
+   text-align: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+section h5 {
+  font-size: 50px;
+   text-align: center;
+  justify-content: center;
+}
+
+.link a {
+  font-size: 35px;
+}
+
+section h4 {
+  margin-top: 18px;
+  font-size: 50px;
+   text-align: center;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.box {
+  font-size: 40px;
+}
+
+.box p {
+  font-size: 35px;
+}
+
+.penutup {
+  font-size: 40px;
+}
+
+.penutup p {
+font-size: 40px;
+}
+
+section h5 {
+  font-size: 40px;
+}
+
+section h3 {
+  font-size: 40px;
+}
+
+.link {
+  text-align: center;
+  justify-content: center;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Mengatur jarak antar elemen */
+}
+
+.left, .right {
+  padding: 10px; /* Memberikan padding pada elemen-elemen kiri dan kanan */
+}
+
+/* Ganti warna atau gaya sesuai keinginan Anda */
+h4, h5 {
+  color: #333;
+}
+
+/* Ganti warna atau gaya sesuai keinginan Anda */
+.left h4, .right h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Ganti warna atau gaya sesuai keinginan Anda */
+.left h5, .right h5 {
+  margin: 0;
+}
+
+footer p {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+  font-size: 35px;
+  border-bottom: 2px solid blue;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+}
+
+.switch input { 
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 35px;
+  width: 29px;
+  left: 3px;
+  bottom: 3px;
+  background-color: #fff;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(50px);
+}
+
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.toogle p {
+  font-size: 35px;
+}
+
+} /* end */
+
+
+.toogle {
+    display: flex;
+    align-items: center;
+  }
+
+  .toogle p {
+    margin-left: 10px;
+  }
+
+
+
+header {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode header {
+  background-color: #000;
+  color: #fff;
+}
+
+
+.dark-mode main {
+  background-color: #000;
+  color: #fff;
+}
+
+.dark-mode .project {
+  background-color: #000;
+  color: #fff;
+}
+
+.dark-mode footer {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dark-mode .box {
+  background-color: #000;
+  color: #fff;
+}
+
+.dark-mode .penutup {
+  background-color: #000;
+  color: #fff;
+}
+
+
+main {
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+section {
+  margin-bottom: 40px;
+  color: #333;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-family: 'Source Serif Pro', serif;
+}
+
+button {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.link {
+  font-size: 15px;
+  line-height: 2;
+}
+
+.mail {
+  border-bottom: 2px solid blue;
+}
+
+.cv {
+  border-bottom: 2px solid blue;
+}
+
+.link a {
+  color: #333;
+  text-decoration: none;
+}
+
+h5 {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #bec3f7;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+.project {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.project img {
+  max-width: 100%;
+  width: 100px;
+      height: 100px;
+      margin: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px blue;
+}
+
+.project:hover {
+      box-shadow: 0 0 30px blue;
+    }
+
+h2 {
+  margin-bottom: 20px;
+  color: #bec3f7;
+  font-size: 25px;
+  font-family: 'Abril Fatface', cursive;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: reveal 4.5s ease-in-out forwards;
+}
+
+@keyframes reveal {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.box {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 10px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.box h2 {
+  color: #333;
+}
+
+.box p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.box ul {
+  margin-top: 10px;
+  margin-bottom: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.box li {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  color: #333;
+}
+
+.box li:last-child {
+  margin-right: 0;
+}
+
+.box:hover li {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.box:hover {
+  border-color: #2196F3;
+  box-shadow: 0 0 5px #2196F3;
+  transform: rotate(2deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.box:hover {
+  position: relative;
+}  
+
+.penutup {
+  border-block: 1px solid blue;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 10px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  
+}
+
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+footer span {
+  font-weight: bold;
+  color: #bec3f7;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+footer a:hover {
+  color: blue;
+}
