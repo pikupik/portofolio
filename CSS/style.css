@@ -4,6 +4,223 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
+
+/* Styles untuk layar menengah seperti pada tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  section {
+    padding: 30px;
+  }
+
+  section h1 {
+    font-size: 50px;
+  }
+
+  section h2 {
+    font-size: 35px;
+  }
+
+  section p {
+    font-size: 20px;
+  }
+
+  section h5 {
+    font-size: 35px;
+  }
+
+  .link a {
+    font-size: 25px;
+  }
+
+  section h4 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .box {
+    font-size: 30px;
+  }
+
+  .box p {
+    font-size: 25px;
+  }
+
+  .penutup {
+    font-size: 30px;
+  }
+
+  .penutup p {
+    font-size: 30px;
+  }
+
+  section h5 {
+    font-size: 30px;
+  }
+
+  section h3 {
+    font-size: 30px;
+  }
+
+  .link {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .skill {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .left h4 {
+    font-size: 30px;
+  }
+
+  .right h4 {
+    font-size: 30px;
+  }
+
+  footer a {
+    font-size: 25px;
+    border-bottom: 2px solid blue;
+  }
+
+  .switch {
+    width: 60px;
+    height: 30px;
+  }
+
+  .slider:before {
+    height: 25px;
+    width: 25px;
+  }
+
+  .toogle p {
+    font-size: 25px;
+  }
+}
+
+/* Styles untuk layar besar seperti pada pc */
+@media only screen and (min-width: 1024px) {
+  section {
+    padding: 50px;
+  }
+
+  section h1 {
+    font-size: 70px;
+  }
+
+  section h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  section p {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  section h5 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .link a {
+    font-size: 35px;
+  }
+
+  section h4 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .box {
+    font-size: 40px;
+  }
+
+  .box p {
+    font-size: 35px;
+  }
+
+  .penutup {
+    font-size: 40px;
+  }
+
+  .penutup p {
+    font-size: 40px;
+  }
+
+  section h5 {
+    font-size: 40px;
+  }
+
+  section h3 {
+    font-size: 40px;
+  }
+
+  .link {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .skill {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .left, .right {
+    padding: 20px;
+  }
+
+  h4, h5 {
+    color: #333;
+  }
+
+  .left h4, .right h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .left h5, .right h5 {
+    margin: 0;
+  }
+
+  footer p {
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+
+  footer a {
+    font-size: 35px;
+    border-bottom: 2px solid blue;
+  }
+
+  .switch {
+    width: 90px;
+    height: 40px;
+  }
+
+  .slider:before {
+    height: 35px;
+    width: 29px;
+  }
+
+  .toogle p {
+    font-size: 35px;
+  }
+}
+
+
+
 /* Styles untuk layar kecil seperti pada hp */
 @media only screen and (max-width: 767px) {
 
@@ -62,9 +279,17 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 
 section p {
-    font-size: 18px;
+    font-size: 16px;
   }
   
 .penutup p {
